@@ -1,0 +1,29 @@
+table,
+thead,
+tbody {
+    border: 5px solid teal;
+    border-collapse: separate;
+    width: 600px;
+}
+
+th,
+td {
+    border: 2px solid teal;
+}
+/*стилі форми*/
+        option {
+            margin-left: 15px;
+            padding: 0;
+        }
+
+        input[type="range"] {
+            width: 200px;
+            margin: 0;
+        }
+
+        .gender-title {
+            display: inline-block;
+            font-weight: bold;
+            margin-left: 30px;
+        }
+
