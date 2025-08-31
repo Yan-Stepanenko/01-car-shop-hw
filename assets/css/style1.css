@@ -1,0 +1,12 @@
+table,
+thead,
+tbody {
+    border: 5px solid teal;
+    border-collapse: separate;
+    width: 600px;
+}
+
+th,
+td {
+    border: 2px solid teal;
+}

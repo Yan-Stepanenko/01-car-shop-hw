@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
                 <input type="datetime-local" id="date" name="date">
             </div>
             <div class="form-elem">
-                <p class="gender-title">Gender</p><br>
+                <p class="gender-title">Gender</p>
                 <input type="radio" id="male" name="gender" value="male">
                 <label for="male">Male</label>
                 <input type="radio" id="female" name="gender" value="female">
@@ -84,11 +84,20 @@
                 <input type="checkbox" name="used" id="used">
             </div>
             <div class="form-elem">
-                <label for="color">Color</label>
-                <input type="color" name="color" id="color">
+                <p class="form-elem">Color</p>
+                <label for="red">Red</label>
+                <input type="radio" id="red" name="color" value="red" checked>
+                <label for="black">Black</label>
+                <input type="radio" id="black" name="color" value="black">
+                <label for="blue">Blue</label>
+                <input type="radio" id="blue" name="color" value="blue">
+                <label for="white">White</label>
+                <input type="radio" id="white" name="color" value="white">
+                <label for="grey">Grey</label>
+                <input type="radio" id="grey" name="color" value="grey">
             </div>
             <div class="form-elem">
-                <label for="range">price</label>
+                <label for="range">Price</label>
                 <input type="range" id="range" name="price" min="10" max="100" step="10" list="money">
                 <datalist id="money">
                     <option value="10" label="10"></option>
